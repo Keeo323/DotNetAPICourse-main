@@ -9,9 +9,14 @@
 *.user
 *.userosscache
 *.sln.docstates
+*
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
+
+# App settings
+appsettings.json
+appsettings*.json
 
 # Mono auto generated files
 mono_crash.*
@@ -381,6 +386,7 @@ autom4te.cache/
 *.tar.gz
 tarballs/
 test-results/
+
 
 # Mac bundle stuff
 *.dmg
