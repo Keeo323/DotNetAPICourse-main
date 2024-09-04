@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "SQLSeed\HelloWorld.csproj", "{F065C6E0-B674-4546-BBEF-F6A8087BFC7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-APIBasics", "3-APIBasics", "{A573989B-1D47-494D-A97A-2F611CC7984B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetAPI", "3-APIBasics\1-DotnetAPI_Start\DotnetAPI.csproj", "{F3FE5A72-DD14-49CB-B83F-A33D4B5C1110}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F065C6E0-B674-4546-BBEF-F6A8087BFC7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F065C6E0-B674-4546-BBEF-F6A8087BFC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F065C6E0-B674-4546-BBEF-F6A8087BFC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F065C6E0-B674-4546-BBEF-F6A8087BFC7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3FE5A72-DD14-49CB-B83F-A33D4B5C1110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3FE5A72-DD14-49CB-B83F-A33D4B5C1110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3FE5A72-DD14-49CB-B83F-A33D4B5C1110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3FE5A72-DD14-49CB-B83F-A33D4B5C1110}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3FE5A72-DD14-49CB-B83F-A33D4B5C1110} = {A573989B-1D47-494D-A97A-2F611CC7984B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A19631BE-DF88-4C22-9FAA-5AF84707018C}
+	EndGlobalSection
+EndGlobal
